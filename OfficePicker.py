@@ -1,9 +1,10 @@
 import random; import os
 
-os.system("@echo off")
-loopFlag = 0
+reRoll = True
 
-while (loopFlag == 0):
+os.system("@echo off")
+
+while (reRoll is True):
 
     os.system("cls")
 
@@ -26,9 +27,5 @@ while (loopFlag == 0):
         randmE = random.randint(1, 24)
 
     print("Season %d, Episode %d\n" % (randmS, randmE))
-    cont = input(str("Press Enter to reroll.\n"))
+    input("Press Enter to reroll.\n")
 
-    if cont == "":
-        loopFlag = 0
-    else:
-        loopFlag = 1
