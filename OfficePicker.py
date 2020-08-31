@@ -1,14 +1,18 @@
 import random; import os
 
+
+def clrscr():
+    if os.name == 'posix':
+        _ = os.system('clear')
+    else:
+        _ = os.system('cls')
+
+
 if __name__ == "__main__":
 
-    reRoll = True
+    while (True):
 
-    os.system("@echo off")
-
-    while (reRoll is True):
-
-        os.system("cls")
+        clrscr()
 
         randSeason = random.randint(1, 9)
         if (randSeason == 1):
