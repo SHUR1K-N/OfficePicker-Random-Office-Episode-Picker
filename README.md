@@ -12,4 +12,4 @@ This project was created in Python, for personal use.
 
 ------------
 
-My website: http://bit.do/SHUR1KN
+My website: https://TheComputerNoob.com
